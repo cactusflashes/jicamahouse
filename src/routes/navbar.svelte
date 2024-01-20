@@ -11,9 +11,7 @@
         justify-content: flex-end;
         flex-direction: row;
         position: fixed; 
-        z-index: 100;
-        margin: 0;
-        padding-right: 10%;
+        z-index: 10;
         border-bottom: 1px solid rgba(255, 255, 255, .2);  
     }
     
@@ -21,8 +19,8 @@
         list-style: none;
         display: flex;
         flex-direction: row;
-        gap: 1vw;
-        padding: 0;
+        padding-right: 30px;
+        gap: 5%; 
     }
     
     li {
@@ -39,7 +37,7 @@
     
     li:hover {
         display: flex;
-        background-color: #D14716; 
+        background-color: #dce4b8;
         font-family: 'Inter', sans-serif;
         cursor: pointer;
         transition: background-color 0.5s, color 0.5s, border 0.3s;
@@ -52,7 +50,7 @@
     }
     
     li:hover a {
-        color: #ecefee;
+        color: #0c3b2e;
         transition: color 0.2s; 
     }
 
@@ -64,7 +62,7 @@
         }
     
         ul {
-            gap: 8vw;  
+            gap: 5%;  
             justify-content: center;
             padding: 0;
             margin: 0; 
@@ -72,6 +70,7 @@
     
         li {
             font-weight: 600;
+            font-size: 1rem;
         }
     }
     

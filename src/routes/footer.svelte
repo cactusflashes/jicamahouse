@@ -11,18 +11,6 @@
         position: relative;
     }
 
-    .footer-bar::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Adjust the opacity as needed */
-    z-index: 2;
-}
-
-
     .col-vert {
         display: flex;
         flex-direction: column;
@@ -30,6 +18,10 @@
         justify-content: center; 
         gap: 50%;
         z-index: 3;
+    }
+
+    h3 {
+        margin: 5px; 
     }
 
     a {
@@ -42,11 +34,9 @@
 
 <div class="footer-bar">
         <div class="col-vert">
-            <h2>©2024 Jicamahouse Photo</h2>
-                <div class="text-spacer"></div>
-            <h2 style="opacity: 60%;">tessandra.studio@gmail.com</h2>
-                <div class="text-spacer"></div>
-                <div class="text-spacer"></div>
+            <h3>©2024 Jicamahouse Photo</h3>
+            <div class="ln"></div>
+            <h3 style="opacity: 60%;">tessandra.studio@gmail.com</h3>
             <a href="/instagram" style="opacity: 60%;">Find me on Instagram ›</a>
         </div>
 </div>
