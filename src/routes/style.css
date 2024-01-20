@@ -258,7 +258,7 @@ a {
 }
 
 .food {
-    background-image: url(src/lib/tess-port-7.jpeg);
+    background-image: url($lib/tess-port-7.jpeg);
     background-position: 100% 40%;
 }
 
