@@ -19,7 +19,7 @@
         list-style: none;
         display: flex;
         flex-direction: row;
-        padding-right: 30px;
+        padding-right: 80px;
         gap: 5%; 
     }
     
