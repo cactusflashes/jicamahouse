@@ -40,7 +40,7 @@ body {
     width: 100%;
     background-color: #0c3b2e;
     position: relative; 
-    background-image: url(src/lib/oranges.svg);
+    background-image: url($lib/oranges.svg);
     background-size: cover;
 }
 
@@ -118,7 +118,7 @@ a {
     display: flex; 
     height: 100%; 
     width: 66%;
-    background-image: url(src/lib/tess-port-1.jpeg);
+    background-image: url($lib/tess-port-1.jpeg);
     background-size: cover;
     background-position: 100% 40%;
     position: absolute;
@@ -231,7 +231,7 @@ a {
     height: 100%; 
     width: 66%;
     background-color: antiquewhite;
-    background-image: url(src/lib/tess-port-6.jpeg);
+    background-image: url($lib/tess-port-6.jpeg);
     background-size: cover;
     background-position: 100% 40%;
 }
@@ -248,12 +248,12 @@ a {
 }
 
 .event {
-    background-image: url(src/lib/tess-port-3.jpeg);
+    background-image: url($lib/tess-port-3.jpeg);
     background-position: 100% 40%;
 }
 
 .product {
-    background-image: url(src/lib/tess-port-4.jpeg);
+    background-image: url($lib/tess-port-4.jpeg);
     background-position: 100% 40%;
 }
 
