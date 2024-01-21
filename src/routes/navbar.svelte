@@ -5,7 +5,6 @@
         backdrop-filter: blur(10px);    
         height: 60px;
         width: 100%; 
-        gap: 10%; 
         display: flex;
         align-items: center;
         justify-content: flex-end;
