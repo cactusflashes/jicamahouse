@@ -321,7 +321,7 @@ a {
     flex-direction: column;
     height: 380px; 
     width: 300px;
-    background-image: url($lib/tess-self-port.jpg);
+    background-image: url($lib/tess-self-port.JPG);
     background-size: cover;
     border-radius: 30px;
 }
