@@ -18,7 +18,7 @@
 
         <div class="md"></div>
 
-        <a class="h-top" href="/about">
+        <a class="h-top" href="/fashion">
             <div class="caption-left">
                 <h2>Fashion & Lifestyle</h2>
                 <h3 style="margin-top: 5px; opacity: 70%;">Capturing the soul of the city.</h3>
@@ -33,7 +33,7 @@
         <div class="md"></div>
 
         <div class="mid-row">
-            <a class="section-item" href="/about">
+            <a class="section-item" href="/event">
                 <div class="photo-top event"></div>
                 <h3 class="section-caption">Event & Cooporate Photography</h3>
                 <div class="bottom-caption-row-section">
@@ -42,7 +42,7 @@
                 </div>
             </a>
 
-            <a class="section-item" href="/about">
+            <a class="section-item" href="/product">
                 <div class="photo-top product"></div>
                 <h3 class="section-caption">Product & Brand Photography</h3>
                 <div class="bottom-caption-row-section">
@@ -51,7 +51,7 @@
                 </div>
             </a>
 
-            <a class="section-item" href="/about">
+            <a class="section-item" href="/food">
                 <div class="photo-top food"></div>
                 <h3 class="section-caption">Food, Drink, and Dining Photography</h3>
                 <div class="bottom-caption-row-section">

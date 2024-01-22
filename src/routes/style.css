@@ -5,6 +5,35 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-style: italic;
+    margin-bottom: 0; 
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0; 
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 400; 
+    margin: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
 .transparency-failover {
     display: flex;
     height: 60px; 
@@ -89,35 +118,6 @@ body {
     border-radius: 30px;
     margin-top: 60px;
     padding: 2%; 
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
-    font-style: italic;
-    margin-bottom: 0; 
-    margin-top: 0;
-}
-
-h2 {
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin: 0; 
-}
-
-h3 {
-    font-size: 1rem;
-    font-weight: 400; 
-}
-
-h4 {
-    font-size: 0.8rem;
-    font-weight: 400; 
-    margin: 0; 
-}
-
-a {
-    text-decoration: none;
 }
 
 .h-top {
@@ -366,7 +366,6 @@ a {
     background-repeat: no-repeat;
 }
 
-
 .about-mid-section {
     display: flex; 
     flex-direction: column;
@@ -430,6 +429,75 @@ a {
     justify-content: center;
     color: #0c3b2e;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+    display: flex; 
+    flex-direction: column;
+    height: 800px; 
+    width: 100%;
+    background-color: #dce4b8;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-column {
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px; 
+    gap: 10px; 
+    
+}
+
+.photo {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hop-to {
+    display: flex; 
+    flex-direction: row;
+    background-color: #dce4b8;
+    height: 80px; 
+    width: 30%; 
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between; 
+    padding-right: 5%;
+    padding-left: 5%;
+    max-width: 1000px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+
+}
+
+.hop-to a {
+    color: #0c3b2e; 
+    text-decoration: none; 
+    font-weight: 500;
+}
+
+.exit {
+    display: flex; 
+    flex-direction: column;
+    height: 40px; 
+    width: 40px; 
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 90px; 
+    right: 20px; 
+    background-color: #0c3b2e;
+    border-radius: 50%;
+    color: white; 
+    border: none; 
 }
 
 @media all and (max-width: 800px) {
@@ -574,6 +642,18 @@ a {
 
     .music, .read {
         width: 100%
+    }
+
+    .exit {
+        display: none; 
+    }
+
+    .photo-column {
+        flex-direction: column;
+    }
+
+    .hop-to {
+        width: 60%; 
     }
 
     

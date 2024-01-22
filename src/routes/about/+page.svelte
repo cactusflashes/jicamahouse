@@ -91,11 +91,9 @@
 
         </div>
 
-
         <div class="about-fun">
             <Card /> 
         </div>
-
 
     </div>
 </body>
