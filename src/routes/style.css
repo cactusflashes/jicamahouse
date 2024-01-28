@@ -84,7 +84,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 420px;
     width: 100%;
     background-color: #0c3b2e;
     position: relative; 
@@ -431,16 +431,6 @@ a {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.contact-header {
-    display: flex; 
-    flex-direction: column;
-    height: 800px; 
-    width: 100%;
-    background-color: #dce4b8;
-    align-items: center;
-    justify-content: center;
-}
-
 .photo-column {
     flex: 1;
     box-sizing: border-box;
@@ -499,6 +489,75 @@ a {
     color: white; 
     border: none; 
 }
+
+.faq-container {
+    display: flex; 
+    flex-direction: row;
+    height: auto; 
+    width: 80%;
+    background-color: transparent; 
+    align-items: center;
+    justify-content: center;
+}
+
+.left-faq {
+    display: flex; 
+    flex-direction: column;
+    height: 200px; 
+    width: 40%; 
+    background-color: #0c3b2e;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white; 
+    align-items: center;
+    justify-content: center;
+    background-image: url($lib/oranges.svg);
+    background-size: cover;
+    background-position: 100% 40%;}
+
+.right-faq {
+    display: flex; 
+    flex-direction: column;
+    height: 200px; 
+    width: 60%; 
+    background-color: #dce4b8; 
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #0c3b2e; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.faq-main {
+    display: flex; 
+    flex-direction: column;
+    height: auto; 
+    width: 70%;
+    align-items: flex-start; 
+    justify-content: center;
+    background-color: #dce4b8;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.faq-main p {
+    opacity: 70%;
+}
+
+.faq-main h2 {
+    font-weight: 500;
+}
+
+
+.contact-button {
+    display: flex; 
+    flex-direction: column;
+    background-color: #0c3b2e;
+    padding: 10px 20px; 
+    color: #dce4b8; 
+    border-radius: 20px;    
+} 
 
 @media all and (max-width: 800px) {
 
@@ -655,6 +714,18 @@ a {
     .hop-to {
         width: 60%; 
     }
+
+    .left-faq {
+        display: none;
+    }
+
+    .right-faq {
+        background-color: transparent;
+        height: 200px;
+    }
+
+
+
 
     
 }
